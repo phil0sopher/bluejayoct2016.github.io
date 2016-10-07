@@ -1359,6 +1359,9 @@ p{
       p, .cover p, .jobboard p, .jobboard li{
 	font-weight: 400;
 	}
+	#hide_mobile {
+    	display: none !important;
+    }
     }
 
     /* Custom, iPhone Retina */ 
@@ -1573,5 +1576,11 @@ h2#about_headertext {
 	}
 	#about-cover > div.color-overlay-5 {
 		background-color:rgba(0,0,0,0.7);
+	}
+	h1#about_headertext {
+		font-size: 32px;
+	}
+	h2#about_headertext {
+		font-size: 24px;
 	}
 }
