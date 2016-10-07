@@ -785,6 +785,10 @@ contact page
 #messageinput {
     height: 200px;
 }
+#contact_topcanvas {
+	padding-top: 0;
+	margin-top: 80px;
+}
 /*********************************************
 
 Image Banner  
