@@ -279,6 +279,22 @@ index
 }
 }
 
+@media only screen and (min-width : 1200px) {
+#getstarted_button {
+	padding: 10 0px;
+	width: 13.5%;
+	font-size: 17px;
+}
+}
+
+@media only screen and (min-width : 992px) {
+#getstarted_button {
+	padding: 10 0px;
+	width: 13.5%;
+	font-size: 17px;
+}
+}
+
 /*-------------------------------*/
 /*    testimonial          */
 /*-------------------------------*/
