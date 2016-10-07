@@ -1578,9 +1578,9 @@ h2#about_headertext {
 		background-color:rgba(0,0,0,0.7);
 	}
 	h1#about_headertext {
-		font-size: 32px;
+		font-size: 24px !important;
 	}
 	h2#about_headertext {
-		font-size: 24px;
+		font-size: 20px !important;
 	}
 }
