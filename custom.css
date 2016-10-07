@@ -729,6 +729,9 @@ patient page
 /*		height:400px;
 		width:auto;*/
 }
+#patient_extraspacing{
+	margin-bottom: 60px;
+}
 .gif-android-patient {
 	position: absolute; 
 	top: 22%; 
