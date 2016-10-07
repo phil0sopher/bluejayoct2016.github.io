@@ -3152,6 +3152,14 @@ fieldset[disabled] .btn-primary.active {
   background-image: linear-gradient(-180deg, #56a981 0%, #376f5a 100%);
   color: #ffffff;
 }
+.btn-warning:hover, .btn-warning:active {
+    background-image: linear-gradient(-180deg, #CDA602 0%, #AD5B11 100%);
+    color: #ffffff;
+}
+.btn-grey:hover, .btn-warning:active {
+    background-image: linear-gradient(-180deg, #819BCB 0%, #536F9D 100%);
+    color: #ffffff;
+}
 .btn-success {
   color: #ffffff;
   background-color: #5cb85c;
@@ -3242,6 +3250,20 @@ fieldset[disabled] .btn-info.active {
   color: #ffffff;
   background-color: #ffffff;
 }
+.btn-grey {
+  color: #ffffff;
+  background-image: linear-gradient(-180deg, #a5b8da 0%, #7089b3 100%);
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.20);
+}
+.btn-grey:hover {
+  background-image: linear-gradient(-180deg, #819bcb 0%, #536f9d 100%);
+  box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.20);
+}
+.btn-grey:active {
+  background-image: linear-gradient(-180deg, #819bcb 0%, #536f9d 100%);
+  box-shadow: 1px 2px 4px 3px rgba(0,0,0,0.20);
+}
+
 .btn-warning {
   color: #ffffff;
   background-image: linear-gradient(-180deg, #FFCD00 0%, #E17615 100%);
@@ -6070,7 +6092,7 @@ button.close {
 .carousel-inner {
   position: relative;
   overflow: hidden;
-  width: 100%;
+  width: 101%;
 }
 .carousel-inner > .item {
   display: none;

@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="“Kate" hsu“="">
     <meta name="keywords" content="Patient Engagement, Apps for Physical Therapy, App for Physical Therapy, iphone apps for physical therapy, iphone app for physical therapy, Mobile app, physical therapy, BlueJay PT, rehabilitation, exercise videos, physical therapist, mobile device, home exercise program, home exercise programs, HEP, customizable, customized, personalized platform, HIPAA compliant, mobile health, outcomes, improve outcomes, physical therapy app, compliance, clini, Rehab, Injury prevention, Log progress, Treatment plan, Increase satisfaction , Adherence, Compliance, Secure, view progress, log progress">
-    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="features.js"></script>
-    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,200, 100, 500,400italic,600,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Oxygen:400,300, 200, 100,700" rel="stylesheet" type="text/css">
     <link href="blueJayStyle.css" rel="stylesheet" type="text/css">
@@ -25,7 +25,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html" id="logoGradient"><img alt="Brand" src="img/bluejaylogo_shadow.png" height="35px"></a>
+          <a class="navbar-brand navbar-left" href="index.html" id="logoGradient"><img alt="Brand" src="img/bluejaylogo_shadow.png" height="35px"></a>
         </div>
         <div class="collapse navbar-collapse" id="navbar-ex-collapse">
           <ul class="nav navbar-nav navbar-right">
@@ -41,39 +41,40 @@
               </ul>
             </li>
             <li>
-              <a>VALUE-BASED CARE</a>
-            </li>
-            <li>
               <a href="about.html">ABOUT US</a>
             </li>
             <li>
               <a href="contact.html">CONTACT US</a>
             </li>
+             <li>
+              <a href="#" class="btn btn-warning requestDemoBtn" target="_blank">Request Demo</a>
+            </li>
             <li>
-              <a href="http://pt.bluejayhealth.com" class="btn btn-primary" id="therapistLogInBtn" target="_blank">Provider Log In <i class="fa fa-fw fa-sign-in"></i></a>
+              <a href="http://pt.bluejayhealth.com" class="btn btn-primary" id="therapistLogInBtn" target="_blank">Log In <i class="fa fa-fw fa-sign-in"></i></a>
             </li>
           </ul>
         </div>
       </div>
     </div>
 
-   
     <div class="cover">
-      <div class="cover-image">
-        <video loop muted autoplay poster="img/cover.png" class="cover-image" id="index-cover-image">
-          <source src="herovideo.mp4">
-        </video>
+      <div class="cover-image" id="patient-cover-image">
       </div>
       <div class="color-overlay-5"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-left">
-            <h1 class="text-center text-info" id="index-headline">Title Here</h1>
-            <h2 class="space-after text-center text-info subtitle">Description Here.</h2>
+      <div class="vertical-top patient-cover">
+        <div class="col-md-12">
+            <div class="col-md-8 col-md-offset-4 col-sm-5 col-sm-offset-4 col-xs-8 col-xs-offset-4 text-right topcover-text" id="patient-cover-text">
+              <h1 class="text-info headline">BlueJay Engage for Patients</h1>
+              <p class="text-info space-after">Access your care. Anytime, anywhere.</p>
+              <div class="col-md-12 text-right patient_cover_iconrow">
+                        <div class="col-md-2 col-md-offset-7 col-sm-4 col-sm-offset-2 col-sm-offset-4  col-xs-6 col-xs-offset-6 space-after patient_cover_icons">
+                          <img src="img/google-play-patient-badge.png" class="img-responsive">
+                        </div>
+                        <div class="col-md-2 col-md-offset-1 col-sm-4 col-sm-offset-2 col-xs-6 col-xs-offset-6 space-after patient_cover_icons">
+                          <img src="img/appleStore_patient_badge.png" class="img-responsive">
+                        </div>
           </div>
-          <div class="col-md-12 text-center">
-            <a class="btn btn-xlg btn-yellow">Button Here</a>
-          </div>
+        </div>
         </div>
       </div>
     </div>
@@ -81,7 +82,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
-            <h1 class="text-muted semibold">Multi-Platform</h1>
+            <h1 class="text-muted semibold headline">Multi-Platform</h1>
           </div>
         </div>
         <div class="row">
@@ -94,6 +95,13 @@
             <img src="img/iphoneblk.png" class="img-responsive png-iphone">
           </div>
           </div>
+          <div class="col-md-12">
+                      <div class="col-md-3 col-md-offset-2 col-sm-3 col-sm-offset-2 col-sm-offset-4  col-xs-6 col-xs-offset-3 space-after">
+                        <img src="img/google-play-patient-badge.png" class="img-responsive" style="position: relative; left: 0; top:0;">
+                      </div>
+                      <div class="col-md-3 col-md-offset-2 col-sm-3 col-sm-offset-2 col-xs-6 col-xs-offset-3 space-after">
+                        <img src="img/appleStore_patient_badge.png" class="img-responsive" style="position: relative; left: 0; top:0;">
+                      </div>
         </div>
       </div>
     </div>
@@ -101,14 +109,14 @@
       <div class="container">
         <div class="row fadeInBlock2">
           <div class="col-md-12 text-center">
-            <h1 class="text-info semibold xlg">Features</h1>
+            <h1 class="text-info semibold xlg headline">Features</h1>
           </div>
         </div>
         <div class="row">
           <div class="col-md-4 space-before space-after fadeInBlock2">
             <img src="img/messagesicon.png" class="img-responsive graphic-icon img-center">
             <h3 class="text-center space-before space-after semibold">Secure Communication</h3>
-            <p class="text-center">Message your physical therapist through a safe and secure environment.</p>
+            <p class="text-center">Message your provider through a safe and secure environment.</p>
           </div>
           <div class="col-md-4 space-before space-after fadeInBlock2">
             <img src="img/videosicon.png" class="img-responsive graphic-icon img-center">
@@ -118,13 +126,10 @@
           <div class="col-md-4 space-before space-after fadeInBlock2">
             <img src="img/remindericon_wt.png" class="img-responsive graphic-icon img-center">
             <h3 class="text-center space-before space-after semibold">Friendly Reminders</h3>
-            <p class="text-center" contenteditable="true">Ensuring you won't miss on exercise and helping you make a complete recovery.</p>
+            <p class="text-center" contenteditable="true">Ensuring you won't miss an exercise and helping you make a complete recovery.</p>
           </div>
         </div>
       </div>
-    </div>
-    <div class="section img600banner" id="patient-banner-image">
-      <div class="color-overlay-3"></div>
     </div>
     <div class="section" id="patient-demo">
       <div class="container">
@@ -151,8 +156,15 @@
     </div>
 
     <div class="section img500banner" id="patientLinkBanner">
-      <div class="color-overlay-3"></div>
+      <div class="color-overlay-2"></div>
       <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-6 text-center vertical-center" id="patient-family-text">
+            <h1 class="text-info" id="patient-family-header">Contact Us to Learn More</h1>
+            <h3><a class="btn btn-lg btn-warning text-info" href="contact.html">Contact Us</a></h3>
+          </div>
+        </div>
+      </div>
       </div>
     </div>
 
@@ -167,14 +179,12 @@
                 <a href="https://www.linkedin.com/company/bluejay-mobile-health-inc-?trk=top_nav_home" target="_blank"><i class="fa fa-3x fa-fw fa-linkedin text-inverse"></i></a>
                 <a href="https://twitter.com/BlueJayPT_app" target="_blank"><i class="fa fa-3x fa-lg fa-twitter text-inverse"></i></a>
                 <a href="https://www.facebook.com/myhomept" target="_blank"><i class="fa fa-3x fa-facebook fa-fw text-inverse"></i></a>
-                <a href="https://www.facebook.com/myhomept" target="_blank"><i class="fa fa-3x fa-youtube fa-fw text-inverse"></i></a>
-                <a href="https://www.facebook.com/myhomept" target="_blank"><i class="fa fa-3x fa-instagram fa-fw text-inverse"></i></a>
               </div>
             </div>
             <br>
             <div class="row" style="padding-top: 10px;">
               <div class="col-sm-12 text-center">
-                <h6><a href="about.html">About Us</a> | <a href="contact.html">Contact Us</a></h6>
+                <h6><a href="about.html">About Us</a> | <a href="career.html">Careers</a></h6>
                 <h6><a href="privatepolicy.html">Privacy Policy</a> | <a href="">HIPAA Compliance and Security</a></h6>
               </div>
             </div>

@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="“Kate" hsu“="">
     <meta name="keywords" content="Patient Engagement, Apps for Physical Therapy, App for Physical Therapy, iphone apps for physical therapy, iphone app for physical therapy, Mobile app, physical therapy, BlueJay PT, rehabilitation, exercise videos, physical therapist, mobile device, home exercise program, home exercise programs, HEP, customizable, customized, personalized platform, HIPAA compliant, mobile health, outcomes, improve outcomes, physical therapy app, compliance, clini, Rehab, Injury prevention, Log progress, Treatment plan, Increase satisfaction , Adherence, Compliance, Secure, view progress, log progress">
-    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="features.js"></script>
-    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,200, 100, 500,400italic,600,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Oxygen:400,300, 200, 100,700" rel="stylesheet" type="text/css">
     <link href="blueJayStyle.css" rel="stylesheet" type="text/css">
@@ -25,7 +25,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html" id="logoGradient"><img alt="Brand" src="img/bluejaylogo_shadow.png" height="35px"></a>
+          <a class="navbar-brand navbar-left" href="index.html" id="logoGradient"><img alt="Brand" src="img/bluejaylogo_shadow.png" height="35px"></a>
         </div>
         <div class="collapse navbar-collapse" id="navbar-ex-collapse">
           <ul class="nav navbar-nav navbar-right">
@@ -41,47 +41,69 @@
               </ul>
             </li>
             <li>
-              <a>VALUE-BASED CARE</a>
-            </li>
-            <li>
               <a href="about.html">ABOUT US</a>
             </li>
             <li>
               <a href="contact.html">CONTACT US</a>
             </li>
+             <li>
+              <a href="#" class="btn btn-warning requestDemoBtn" target="_blank">Request Demo</a>
+            </li>
             <li>
-              <a href="http://pt.bluejayhealth.com" class="btn btn-primary" id="therapistLogInBtn" target="_blank">Provider Log In <i class="fa fa-fw fa-sign-in"></i></a>
+              <a href="http://pt.bluejayhealth.com" class="btn btn-primary" id="therapistLogInBtn" target="_blank">Log In <i class="fa fa-fw fa-sign-in"></i></a>
             </li>
           </ul>
         </div>
       </div>
     </div>
 
+    <!--Schedule a Demo form Banner-->
+        <section class="mailform container-fluid">
+            <div class="row">
+                <div class="formholderclass" id="formholder_demo">
+                    <a class="formholderclose" href="#close">close
+      </a>
+                    <div class="formwrapper">
+                        <!-- Begin Schedule Demo request Form -->
+                        <iframe id="frame-one833364190" style="width: 100%; border: 0px; margin: 0px; padding: 0px;" allowtransparency="true" frameborder="0" scrolling="no" src="https://fs9.formsite.com/res/showFormEmbed?EParam=jFMIig1ZP57K9Y0OEKMrdq%2F3bsAv%2BgQi&amp;833364190&amp;EmbedId=833364190&amp;MobileResponsive" height="686"></iframe><a name="form833364190" id="formAnchor833364190"></a>
+                        <script type="text/javascript" src="https://fs9.formsite.com/include/form/embedManager.js?833364190"></script>
+                        <script type="text/javascript">
+                            EmbedManager.embed({
+                                  key: "https://fs9.formsite.com/res/showFormEmbed?EParam=jFMIig1ZP57K9Y0OEKMrdq%2F3bsAv%2BgQi&833364190",
+                                  width: "100%",
+                                  scroll: true ,
+                                  mobileResponsive: true
+                                });
+                        </script>
+                    </div>
+                    <!--End Schedule Demo request Form-->
+                </div>
+            </div>
+        </section>
+        <!--End Schedule a Demo form Banner-->
+
    
-      <div class="cover">
-      <div class="cover-image">
-        <video loop muted autoplay poster="img/cover.png" class="cover-image" id="index-cover-image">
-          <source src="herovideo.mp4">
-        </video>
-      </div>
-      <div class="color-overlay-5"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-left">
-            <h1 class="text-center text-info" id="index-headline">BlueJay Engage for Physical Therapists and Rehabilitation Providers</h1>
-            <h2 class="space-after text-center text-info subtitle">Description Here.</h2>
-          </div>
-          <div class="col-md-12 text-center">
-            <a class="btn btn-xlg btn-yellow" href="contact.html">Get Started</a>
-          </div>
+    <div class="cover">
+            <div class=" cover-image" id="therapist-cover-image"></div>
+            <div class="color-overlay-5_3"></div>
+            <div class="container vertical-top">
+                <div class="row">
+                    <div class="col-md-8 space-after top-cover-text" id="provider-topcover-text">
+                        <h1 class="text-info headline">BlueJay Engage for Providers</h1>
+                        <p class="text-info space-after">A HIPAA-compliant, professional mobile application that enables rehabilitation providers to create customized exercise videos, monitor patient's progress,
+                            and effectively communicate with patients.</p>
+                    </div>
+                    <div class="col-md-8 text-left fadeInBlock" id="provider-gt-container" style="opacity: 1;">
+                          <a class="btn btn-lg btn-warning">Get started!</a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
         <div class="section">
-            <div class="container padding">
+            <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                    <h1 class="text-center color xlg" style="padding-bottom: 10px; font-weight: 600;">Multi-Platform</h1>
+                    <h1 class="text-center color xlg headline" style="padding-bottom: 10px; font-weight: 600;">Multi-Platform</h1>
                     <div class="img-responsive" style="position: relative;">
                         <img src="img/iMac_iPad_iPhone.jpg" class="img-responsive" style="position: relative; left: 0; top:0;">
                         <!--<img src="macTherapist.gif" class="gif-mac-therapist">
@@ -94,6 +116,17 @@
                     <div class="col-md-12">
                         <h4 class="space text-center" style="padding-top: 15px;">BlueJay Engage is a multi-platform app catered to management, administrators, providers, and patients.</h4>
                     </div>
+                    <div class="col-md-12">
+                      <div class="col-md-2 col-md-offset-1 col-sm-2 col-sm-offset-1 col-xs-6 col-xs-offset-3 space-after">
+                        <img src="img/browser_badge.png" class="img-responsive" style="position: relative; left: 0; top:0;">
+                      </div>
+                      <div class="col-md-2 col-md-offset-2 col-sm-2 col-sm-offset-2 col-sm-offset-4  col-xs-6 col-xs-offset-3 space-after">
+                        <img src="img/google-play-badge.png" class="img-responsive" style="position: relative; left: 0; top:0;">
+                      </div>
+                      <div class="col-md-2 col-md-offset-2 col-sm-2 col-sm-offset-2 col-xs-6 col-xs-offset-3 space-after">
+                        <img src="img/appleStore_badge.png" class="img-responsive" style="position: relative; left: 0; top:0;">
+                      </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -101,24 +134,24 @@
             <div class="container">
                 <div class="row fadeInBLock2">
                     <div class="col-md-12 text-center">
-                        <h1 class="text-info semibold xlg">Features</h1>
+                        <h1 class="text-info semibold xlg headline">Features</h1>
                     </div>
                 </div>
                 <div class="row space-before space-after">
                     <div class="col-md-4 fadeInBlock2">
                         <img src="img/communicationicon.png" class="img-responsive graphic-icon img-center">
-                        <h3 class="text-center space-before space-after semibold">Patient-Centric Communication</h3>
-                        <p class="text-center">Across the care continuum<!--Send and receive text, audio, and video messages to and from your patients.--></p>
+                        <h3 class="text-center space-before space-after semibold">100% Secure</h3>
+                        <p class="text-center">Compliant with HIPAA privacy laws to ensure patient confidentiality<!--Send and receive text, audio, and video messages to and from your patients.--></p>
                     </div>
                     <div class="col-md-4 fadeInBlock2">
                         <img src="img/videos1000icon.png" class="img-responsive graphic-icon img-center">
-                        <h3 class="text-center  space-before space-after semibold">Personalized Interventions</h3>
-                        <p class="text-center">Whenever and wherever<!--Create and send individualized treatment plans to each of your patients.--></p>
+                        <h3 class="text-center  space-before space-after semibold">Custom Videos</h3>
+                        <p class="text-center">1000+ instructional physical therapy videos and the ability to create custom treatment videos<!--Create and send individualized treatment plans to each of your patients.--></p>
                     </div>
                     <div class="col-md-4 fadeInBlock2">
                         <img src="img/satisfactionicon.png" class="img-responsive graphic-icon img-center">
-                        <h3 class="text-center space-before space-after semibold">Real-Time Outcomes Tracking</h3>
-                        <p class="text-center">Performance metrics for better outcomes and happier patients<!--Monitor your patients' treatment progress through simple charts.--></p>
+                        <h3 class="text-center space-before space-after semibold">Improved Outcomes,  Increased Satisfaction</h3>
+                        <p class="text-center">Improve patient compliance & satisfaction with your practice<!--Monitor your patients' treatment progress through simple charts.--></p>
                     </div>
                 </div>
             </div>
@@ -157,7 +190,7 @@
                     <h5 class="text-primary">Los Gatos Orthopedic Sports Therapy</h5>
                     <p class="text-muted">" No more "I lost the paperwork you gave me" excuses! These days, it's
                       almost necessary to have an app that can support our treatment interventions
-                      for compliance, and BlueJay PT does a great job at supporting my patients
+                      for compliance, and BlueJay does a great job at supporting my patients
                       in reaching their goals. "</p>
                   </blockquote>
                 </div>
@@ -184,14 +217,10 @@
           <div class="color-overlay-3"></div>
           <div class="container">
             <div class="row">
-              <div class="col-md-12 text-center fadeInBlock3">
-                <h2 style="color: white;">This is where the tagline goes! Wow so cool!</h2>
+              <div class="col-lg-12 text-center">
+                <h3><a class="btn btn-lg btn-warning text-info" href="contact.html">Contact Us to Learn More</a></h3>
               </div>
             </div>
-              <br><br><br><br>
-              <div class="col-md-12 text-center fadeInBlock3">
-                <a class="btn btn-lg btn-yellow">Let's get started!</a>
-              </div>
           </div>
         </div>
 
@@ -206,14 +235,12 @@
                 <a href="https://www.linkedin.com/company/bluejay-mobile-health-inc-?trk=top_nav_home" target="_blank"><i class="fa fa-3x fa-fw fa-linkedin text-inverse"></i></a>
                 <a href="https://twitter.com/BlueJayPT_app" target="_blank"><i class="fa fa-3x fa-lg fa-twitter text-inverse"></i></a>
                 <a href="https://www.facebook.com/myhomept" target="_blank"><i class="fa fa-3x fa-facebook fa-fw text-inverse"></i></a>
-                <a href="https://www.facebook.com/myhomept" target="_blank"><i class="fa fa-3x fa-youtube fa-fw text-inverse"></i></a>
-                <a href="https://www.facebook.com/myhomept" target="_blank"><i class="fa fa-3x fa-instagram fa-fw text-inverse"></i></a>
               </div>
             </div>
             <br>
             <div class="row" style="padding-top: 10px;">
               <div class="col-sm-12 text-center">
-                <h6><a href="about.html">About Us</a> | <a href="contact.html">Contact Us</a></h6>
+                <h6><a href="about.html">About Us</a> | <a href="career.html">Careers</a></h6>
                 <h6><a href="privatepolicy.html">Privacy Policy</a> | <a href="">HIPAA Compliance and Security</a></h6>
               </div>
             </div>
