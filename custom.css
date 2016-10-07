@@ -1573,6 +1573,7 @@ h2#about_headertext {
 @media only screen and (max-width : 480px) {
 	#about-textbox {
 		background-color: transparent;
+		top: 40;
 	}
 	#about-cover > div.color-overlay-5 {
 		background-color:rgba(0,0,0,0.7);
@@ -1582,5 +1583,8 @@ h2#about_headertext {
 	}
 	h2#about_headertext {
 		font-size: 20px !important;
+	}
+	#about-cover{
+		height: 500px;
 	}
 }
