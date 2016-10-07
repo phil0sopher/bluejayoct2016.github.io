@@ -1474,7 +1474,7 @@ div.patient_cover_icons{
 /*    Provider Page   */
 /*-------------------------------*/
 
- @media only screen and (max-width : 998px) {
+@media only screen and (max-width : 998px) {
 	#provider-topcover-text {
 		top: 24px !important;
 		left:0%;
@@ -1485,7 +1485,7 @@ div.patient_cover_icons{
 	}
 }
 
- @media only screen and (max-width : 768px) {
+@media only screen and (max-width : 768px) {
 	#provider-topcover-text {
 		top: 240px !important;
 		left:0%;
@@ -1501,9 +1501,19 @@ div.patient_cover_icons{
 	}
 }
 
+@media only screen and (max-width : 320px) {
+	#provider-topcover-text {
+		top: 180px;
+	}
+
+}
+
 @media only screen and (max-width : 636px) {
 	#provider-gt-container {
 		display: none;
+	}
+	#provider-topcover-text > h1 {
+		font-size: 32px!important;
 	}
 }
 
